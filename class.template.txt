@@ -1,0 +1,17 @@
+<?php
+class Interest {
+	
+	private $connection;
+
+	function __construct($mysqli) {
+		
+		//this viitab klassile (this == User)
+		$this->connection = $mysqli;
+		
+	}
+	
+	
+	/* TEISED FUNKTSIOONID */
+
+}
+?>
